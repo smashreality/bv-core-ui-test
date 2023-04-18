@@ -1,9 +1,12 @@
 {
-  "name": "ts-npm-package-boilerplate",
-  "version": "0.2.3",
-  "description": "TypeScript NPM Module Boilerplate",
+  "name": "@smashreality/test",
+  "version": "0.0.0",
+  "description": "Smash Reality Inc.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@smashreality"
+  },
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
@@ -18,18 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebertcisco/ts-npm-package-boilerplate.git"
+    "url": "git+https://github.com/smashreality/bv-core-ui-test.git"
   },
   "keywords": [
     "boilerplate",
     "typescript"
   ],
   "author": "Hebert Cisco",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hebertcisco/ts-npm-package-boilerplate/issues"
-  },
-  "homepage": "https://github.com/hebertcisco/ts-npm-package-boilerplate#readme",
   "devDependencies": {
     "@types/jest": "29.4.0",
     "@typescript-eslint/eslint-plugin": "5.54.0",
