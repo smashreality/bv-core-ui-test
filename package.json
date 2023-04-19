@@ -1,6 +1,6 @@
 {
   "name": "@smashreality/bv-core-ui-test",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Smash Reality Inc.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
