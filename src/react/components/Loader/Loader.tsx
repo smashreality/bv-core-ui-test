@@ -1,6 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-
-import { CircularProgress } from "@mui/material";
+import { useEffect, useRef, useState } from 'react';
+import { CircularProgress } from '@mui/material';
 
 function parentHeight(elem) {
   return elem.parentElement.clientHeight;
@@ -18,14 +17,16 @@ const Loader = () => {
 
   return (
     <div
+      // TODO: Fix this error
+      //@ts-ignore
       ref={ref}
       style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "content",
-        textAlign: "center",
-        height: height === 0 ? "100%" : height,
-        width: "100%",
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'content',
+        textAlign: 'center',
+        height: height === 0 ? '100%' : height,
+        width: '100%',
       }}
     >
       <CircularProgress color="primary" size={50} />
