@@ -3,9 +3,7 @@
   "version": "0.0.20",
   "description": "Smash Reality Inc.",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@smashreality"
+  "types": "lib/index.d.ts"
   },
   "keywords": [
     "boilerplate",
