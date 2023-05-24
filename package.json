@@ -1,11 +1,11 @@
 {
-  "name": "@smashreality/bv-core-ui-test",
-  "version": "0.0.21",
-  "description": "Smash Reality Inc.",
+  "name": "@bureauveritas/core",
+  "version": "0.0.1",
+  "description": "Bureau Veritas Group.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@smashreality"
+    "registry": "https://devops.bvna.com/tfs/maxxam/BVCore/_packaging/BVCorePackages/npm/registry/"
   },
   "scripts": {
     "build": "tsc",
@@ -43,6 +43,8 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.12.1",
+    "dayjs": "^1.11.7",
+    "jwt-decode": "^3.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0"
