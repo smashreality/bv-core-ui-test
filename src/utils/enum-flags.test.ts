@@ -44,3 +44,5 @@ describe('ENUM Flags', () => {
     expect(FileAccess.EXEC === (x & FileAccess.EXEC)).toBe(true);
   });
 });
+
+export {};
